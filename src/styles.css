@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(46, 63, 28);
+}
+
+.card-container {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  transition: transform 0.5s ease;
+}
+
+.animation-card {
+  animation: cardAnimation 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes cardAnimation {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: -200%;
+  }
+  51% {
+    left: 200%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+button {
+  position: absolute;
+  bottom: 40px;
+}
