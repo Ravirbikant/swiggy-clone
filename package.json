@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ravirbikant.github.io/dhoni",
+  "homepage": "https://ravirbikant.github.io/swiggy-clone",
   "name": "dhoni",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.11.1"
   }
 }
